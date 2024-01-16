@@ -1,7 +1,16 @@
 const Header = () => {
     return (
-        <div
-            className="">NavBar Here</div>
+        <div className="">
+            {/* left */}
+            <div></div>
+
+            {/* middle */}
+            <div></div>
+
+            {/* right */}
+            <div></div>            
+
+        </div>
     )
 }
 
