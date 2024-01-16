@@ -1,16 +1,29 @@
+import Image from 'next/image';
+
 const Header = () => {
     return (
-        <div className="">
+        <header className="sticky top-0 z-50 grid grid-cols-3 bg-white">
             {/* left */}
-            <div></div>
+            <div className="relative flex items-center h-10">
+                <Image
+                    src="/images/logos/cclogo100.png"
+                    alt="Carefree Compound Logo"
+                    layout="fill"
+                    objectFit="contain" 
+                    objectPosition="left"
+                />
+            </div>
 
             {/* middle */}
-            <div></div>
+            <div className="flex-1 p-4"> 
+                Carefree Compound
+            </div>
 
             {/* right */}
-            <div></div>            
+            <div className="flex-1 p-4">
+                </div>            
 
-        </div>
+        </header>
     )
 }
 

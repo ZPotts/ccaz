@@ -4,6 +4,7 @@ import { Montserrat } from 'next/font/google'
 
 import './globals.css'
 import Navbar from "./components/navbar/Navbar"
+import Header from './components/header/Header'
 
 const montserrat = Montserrat({ 
   weight: ['200', '400', '600', '700'],
@@ -28,8 +29,8 @@ export default function RootLayout({
           <title>Carefree Compound, Arizona</title>
         </Head>
       <body className={montserrat.className}>
-        <Navbar />
         {/* HEADER */}
+        <Header />
         {/* BANNER */}
         {children}
       </body>
