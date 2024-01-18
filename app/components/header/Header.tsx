@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Header = () => {
     return (
-        <header className="sticky top-0 z-50 grid grid-cols-3 bg-white">
+        <header className="sticky top-0 z-50 grid grid-cols-3 bg-white py-5 px-5">
             {/* left */}
             <div className="relative flex items-center h-10">
                 <Image
