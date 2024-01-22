@@ -5,6 +5,7 @@ import { Montserrat } from 'next/font/google'
 import './globals.css'
 import Navbar from "./components/navbar/Navbar"
 import Header from './components/header/Header'
+import Banner from './components/Banner'
 
 const montserrat = Montserrat({ 
   weight: ['200', '400', '600', '700'],
@@ -32,6 +33,7 @@ export default function RootLayout({
         {/* HEADER */}
         <Header />
         {/* BANNER */}
+        <Banner />
         {children}
       </body>
     </html>

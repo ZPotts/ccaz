@@ -1,4 +1,12 @@
 import Image from 'next/image';
+import { 
+    GlobeAltIcon, 
+    HomeModernIcon, 
+    Bars3Icon, 
+    UserCircleIcon, 
+    MagnifyingGlassIcon, 
+    UsersIcon, 
+} from '@heroicons/react/16/solid'; 
 
 const Header = () => {
     return (
@@ -20,8 +28,14 @@ const Header = () => {
             </div>
 
             {/* right */}
-            <div className="flex-1 p-4">
-                </div>            
+            <div className="flex items-center space-x-2 justify-end p-4">
+                <p className="hidden md:inline">Book your stay</p>
+                <HomeModernIcon className="h-6" />
+                <div className="flex items-center space-x-2 border-2 p-2 rounded-full">
+                    <Bars3Icon className="hidden h-6" />
+                    <UserCircleIcon className="h-6" />
+                </div>
+            </div>            
 
         </header>
     )
