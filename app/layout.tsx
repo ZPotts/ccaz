@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Head from "next/head"
-import { Montserrat } from 'next/font/google'
+import { Montserrat, Rye } from 'next/font/google'
 
 import './globals.css'
 import Navbar from "./components/navbar/Navbar"
@@ -12,6 +12,13 @@ const montserrat = Montserrat({
   style: ['normal', 'italic'],
   subsets: ['latin'],
   display: 'swap',
+  variable: '--font-montserrat',
+})
+
+const rye = Rye({
+  weight: '400',
+  subsets: ['latin'],
+  variable: '--font-rye',
 })
 
 export const metadata: Metadata = {
@@ -29,7 +36,7 @@ export default function RootLayout({
         <Head>
           <title>Carefree Compound, Arizona</title>
         </Head>
-      <body className={montserrat.className}>
+      <body className={`${montserrat.variable} ${rye.variable}`}>
         {/* HEADER */}
         <Header />
         {/* BANNER */}

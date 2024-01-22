@@ -23,7 +23,7 @@ const Header = () => {
             </div>
 
             {/* middle */}
-            <div className="flex-1 p-4"> 
+            <div className="flex-1 p-4 font-rye text-center text-orange-dark text-2xl sm:text-3xl md:text-4xl"> 
                 Carefree Compound
             </div>
 

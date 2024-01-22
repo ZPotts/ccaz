@@ -12,6 +12,10 @@ module.exports = {
         'orange-dark': '#b95915',
         'orange-light': '#e56020',
         'purp': '#27235c'
+      },
+      fontFamily: {
+        "montserrat": "var(--font-montserrat)",
+        "rye": "var(--font-rye)"
       }
     },
   },
