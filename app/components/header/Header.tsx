@@ -29,8 +29,8 @@ const Header = () => {
 
             {/* right */}
             <div className="flex items-center space-x-2 justify-end p-4">
-                <p className="hidden md:inline">
-                    <a href="mailto:carefreecompound@gmail.com">Email us to book your stay</a>
+                <p className="md:inline">
+                    <a href="mailto:carefreecompound@gmail.com" className="underline">Email us to book your stay</a>
                 </p>
                 <HomeModernIcon className="h-6" />
                 {/*
