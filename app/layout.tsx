@@ -93,9 +93,9 @@ export default function RootLayout({
 
         <main className="max-w-7xl mx-auto px-8 sm:px-8 text-center">
           <section className="pt-6 pb-12">
-            <h2 className="text-4xl font-semibold pb-5 font-rye">Welcome to the Compound</h2>
+            <h2 className="text-4xl font-semibold pb-5 font-rye text-orange-dark">Welcome to the Compound</h2>
 
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap justify-center">
               {cardsData.map(({ img, title }) => (
                 <MediumCard key={img} img={img} title={title} />
               ))}
