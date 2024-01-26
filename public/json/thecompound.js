@@ -1,11 +1,11 @@
 [
     {
-        "img": "img1",
+        "img": "./images/photos/property/img1.png",
         "title": "img-title",
         "description": "img description"
     },
     {
-        "img": "",
+        "img": "./images/photos/property/img1.png",
         "title": "",
         "description": ""
     }, 
