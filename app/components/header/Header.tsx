@@ -29,12 +29,16 @@ const Header = () => {
 
             {/* right */}
             <div className="flex items-center space-x-2 justify-end p-4">
-                <p className="hidden md:inline">Book your stay</p>
+                <p className="hidden md:inline">
+                    <a href="mailto:carefreecompound@gmail.com">Email us to book your stay</a>
+                </p>
                 <HomeModernIcon className="h-6" />
+                {/*
                 <div className="flex items-center space-x-2 border-2 p-2 rounded-full">
                     <Bars3Icon className="hidden h-6" />
                     <UserCircleIcon className="h-6" />
                 </div>
+    */}
             </div>            
 
         </header>
