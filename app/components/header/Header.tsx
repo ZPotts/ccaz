@@ -29,7 +29,7 @@ const Header = () => {
 
             {/* right */}
             <div className="flex items-center justify-center sm:justify-end space-x-2 p-2">
-                <HomeModernIcon className="hidden md:block h-6" />
+                <HomeModernIcon className="hidden lg:block h-6" />
                 <p className="md:inline text-xl sm:text-base">
                     <a href="mailto:carefreecompound@gmail.com" className="underline"><strong>Email us to book your stay</strong></a>
                 </p>
