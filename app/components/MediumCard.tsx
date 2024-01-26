@@ -1,4 +1,4 @@
-const MediumCard = (img, title) => {
+const MediumCard = () => {
     return(
        <div>
 
