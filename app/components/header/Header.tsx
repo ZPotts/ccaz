@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <header className="sticky top-0 z-50 grid grid-cols-3 bg-white py-5 px-5">
             {/* left */}
-            <div className="relative flex items-center h-10">
+            <div className="relative flex items-center h-16">
                 <Image
                     src="/images/logos/cclogo100.png"
                     alt="Carefree Compound Logo"

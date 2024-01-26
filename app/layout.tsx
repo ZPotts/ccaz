@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import Head from "next/head"
+import Head from 'next/head'
 import { Montserrat, Rye } from 'next/font/google'
 
 import './globals.css'
@@ -34,34 +34,84 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
+  const cardsData = [
+      {
+        "img": "/images/photos/property/thehouse.png",
+        "title": "Located on a 5-acre lot"
+      },
+      {
+        "img": "/images/photos/property/rooftop.png",
+        "title": "With views of the whole Valley"
+      },
+      {
+        "img": "/images/photos/property/pool.png",
+        "title": "Wake up with laps"
+      },
+      {
+        "img": "/images/photos/property/golf.png",
+        "title": "Or unwind on the green"
+      },
+      {
+        "img": "/images/photos/property/formaldining.png",
+        "title": "Host the most formal dinner"
+      },
+      {
+        "img": "/images/photos/property/diningroom.png",
+        "title": "Or sit down with your best friends"
+      },
+      {
+        "img": "/images/photos/property/couchview.png",
+        "title": "Relax with the city before you"
+      },
+      {
+        "img": "/images/photos/property/entertainingroom.png",
+        "title": "Piano player not included"
+      },
+      {
+        "img": "/images/photos/property/pond.png",
+        "title": "Your door opens to the koi pond"
+      },
+      {
+        "img": "/images/photos/property/tennis.png",
+        "title": "Challenge friends on the court"
+      },
+      {
+        "img": "/images/photos/property/road.png",
+        "title": "The possibilities are...endless"
+      }
+  ];
+
   return (
     <html lang="en">
         <Head>
-          <title>Carefree Compound, Arizona</title>
+          <title>Carefree Compound</title>
         </Head>
       <body className={`${montserrat.variable} ${rye.variable}`}>
         <Header />
         <Banner />
 
-        <main className="max-w-7xl mx-auto px-8 sm:px-16">
-          <section className="pt-6">
-            <h2 className="text-4xl font-semibold pb-5">Welcome to the Compound</h2>
+        <main className="max-w-7xl mx-auto px-8 sm:px-8 text-center">
+          <section className="pt-6 pb-12">
+            <h2 className="text-4xl font-semibold pb-5 font-rye">Welcome to the Compound</h2>
 
-            {/* 
-            {cardsData.map(({ img, title}) => (
-              <MediumCard key={img} img={img} title={title} />
-            ))}
-            */}
+            <div className="flex flex-wrap">
+              {cardsData.map(({ img, title }) => (
+                <MediumCard key={img} img={img} title={title} />
+              ))}
+            </div>
+            
           </section>
         </main>
-        {children}
+   
 
       </body>
     </html>
   )
 }
 
-async function getData() {
+/*
+async function cardsData() {
   const res = await fetch('./json/thecompound.js')
   // The return value is *not* serialized
   // You can return Date, Map, Set, etc.
@@ -73,3 +123,4 @@ async function getData() {
  
   return res.json()
 }
+*/
