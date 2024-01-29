@@ -3,7 +3,7 @@ const Teaser = () => {
     return(
         <div id="teaser">
             <div className="font-normal text-lg">
-                <p className="mb-4 font-semibold uppercase"><strong>outdoors and adventure travel &bull; family vacations &bull; weddings &amp; engagements &bull; business travel</strong></p>
+                <p className="mb-4 font-semibold uppercase"><strong>outdoors and adventure travel &bull; family vacations &bull; weddings &amp; engagements &bull; executive stays</strong></p>
              </div>
             <div className="rounded-xl border-2 border-orange-dark pt-2 px-4 mb-4">
                 <div className="font-normal text-lg">

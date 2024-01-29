@@ -10,7 +10,7 @@ const Banner = () => {
                 alt="Banner Carefree Compound"
             />
             <div className="absolute top-1/3 sm:top-1/2 w-full text-center text-white">
-                <p className="text-4xl sm:text-5xl px-10 py-4 font-bold">Bike-In Bike-Out<br />On 5 acres in Scottsdale</p>
+                <p className="text-4xl sm:text-5xl px-10 py-4 font-bold">Bike-In Bike-Out<br />On 6 acres in Scottsdale</p>
             </div>
 
         </div>
