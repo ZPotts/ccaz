@@ -7,6 +7,7 @@ import Header from './components/header/Header'
 import Banner from './components/Banner'
 import Teaser from './components/Teaser'
 import MediumCardContainer from './components/MediumCardContainer'
+import MapCardContainer from './components/MapCardContainer'
 
 const montserrat = Montserrat({ 
   weight: ['200', '400', '600', '700'],
@@ -46,6 +47,7 @@ return (
           <section className="pt-6 pb-12">
             <Teaser /> 
             <MediumCardContainer />
+            <MapCardContainer />
           </section>
         </main>
    
