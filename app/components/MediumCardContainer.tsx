@@ -17,23 +17,7 @@ const cardsData = [
       "img": "/images/photos/property/golf.png",
       "title": "Or unwind on the green"
     },
-    {
-      "img": "/images/photos/property/formaldining.png",
-      "title": "Host the most formal dinner"
-    },
-    {
-      "img": "/images/photos/property/diningroom.png",
-      "title": "Or sit down with your best friends"
-    },
-    {
-      "img": "/images/photos/property/couchview.png",
-      "title": "Relax with the city before you"
-    },
-    {
-      "img": "/images/photos/property/entertainingroom.png",
-      "title": "Piano player not included"
-    },
-    {
+   {
       "img": "/images/photos/property/pond.png",
       "title": "Your door opens to the koi pond"
     },
