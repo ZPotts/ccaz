@@ -1,4 +1,4 @@
-import MapCard from "./MapCard"
+import SmallCard from "./SmallCard"
 
 const mapCardData = [
     {
@@ -22,10 +22,10 @@ const MapCardContainer = () => {
  return(
     <div className="mt-12">
         <h3 className="text-xl text-left font-bold text-gray-600">Bordering 33,500 acres of open space with more than 100 miles of open routes for motocross, offroading, cycling and hiking.</h3>
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
          {
             mapCardData.map(({img, title, link}) => (
-                <MapCard key={img} img={img} title={title} link={link} />
+                <SmallCard key={img} img={img} title={title} link={link} />
             ))}
     </div>
     </div>

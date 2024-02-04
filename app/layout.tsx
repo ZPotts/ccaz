@@ -8,6 +8,7 @@ import Banner from './components/Banner'
 import Teaser from './components/Teaser'
 import MediumCardContainer from './components/MediumCardContainer'
 import MapCardContainer from './components/MapCardContainer'
+import InteriorCardContainer from './components/InteriorCardContainer'
 
 const montserrat = Montserrat({ 
   weight: ['200', '400', '600', '700'],
@@ -48,6 +49,7 @@ return (
             <Teaser /> 
             <MediumCardContainer />
             <MapCardContainer />
+            <InteriorCardContainer />
           </section>
         </main>
    
